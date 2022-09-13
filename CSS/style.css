@@ -29,6 +29,10 @@
     background-color: white;
 }
 
+.div_1 img {
+    height: 350px;
+}
+
 .div_2 {
     width: 60%;
     background-color:blue;
