@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 178, 30)
+}
+
+.body {
+    background-color: rgb(248, 178, 30);
+}
+
+.section_1 {
+    margin: 6em;
+    box-shadow: 1em;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    border-radius:  25px;
+    -webkit-border-radius:  25px;
+    -moz-border-radius:  25px;
+    -ms-border-radius:  25px;
+    -o-border-radius:  25px;
+}
+.div_1 {
+    width: 20%;
+}
+
+.div_2 {
+    width: 60%;
+}
+.div_2 nav ul li {
+    list-style: none;
+    display: flex;
+    ;
+
+
+}
