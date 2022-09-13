@@ -12,18 +12,31 @@
 .section_1 {
     margin: 6em;
     box-shadow: 1em;
-    border-style: solid;
-    border-color: black;
+    border-style:outset;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+    filter:drop-shadow(5px5px5px5px);
+    filter: blur(5px 5px 5px);
+    border-color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
     padding: 2em;
-    /* border-radius:  25px;
-    -webkit-border-radius:  25px;
-    -moz-border-radius:  25px;
-    -ms-border-radius:  25px;
-    -o-border-radius:  25px; */
     height: 70%;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
 }
+
+.section_1:hover{
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-25px);
+    -webkit-transform: translateY(-25px);
+    -moz-transform: translateY(-25px);
+    -ms-transform: translateY(-25px);
+    -o-transform: translateY(-25px);
+}
+
 .div_1 {
     width: 30%;
     background-color: white;
@@ -31,16 +44,18 @@
 
 .div_1 img {
     height: 350px;
+    margin-top: 4rem;
+    margin-left: 4rem;
 }
 
 .div_2 {
     width: 60%;
     background-color:blue;
+    /* display: flex; */
 }
-.div_2 nav ul li {
+.div_2 nav ul  {
     list-style: none;
     display: flex;
-    ;
-
-
+    justify-content: center;
+    padding: 2em;
 }
